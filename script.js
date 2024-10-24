@@ -31,7 +31,7 @@ function rankCalculator(wins, losses) {
     console.log(`\nO Herói ${winBalance} está no nível ${level}`);
 }
 
-let wins = readlineSync.question('\nDigite a Quantidade de Vitorias: ');
+let wins = parseInt(readlineSync.question('\nDigite a Quantidade de Vitorias: '));
 let losses = parseInt(readlineSync.question('\nDigite a quantidade de Derrotas: '));
 
 rankCalculator(wins, losses);
